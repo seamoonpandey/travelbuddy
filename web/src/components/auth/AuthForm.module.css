@@ -1,0 +1,99 @@
+.form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.error {
+  color: #d64545;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.rememberRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.checkboxRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--brand-orange);
+}
+
+.linkAccent {
+  color: var(--brand-orange);
+  font-weight: 600;
+}
+
+.linkAccent:hover {
+  color: #f07f00;
+}
+
+.divider {
+  position: relative;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--brand-gray);
+  margin: 0.5rem 0;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: var(--brand-border);
+}
+
+.divider span {
+  position: relative;
+  background: #fff;
+  padding: 0 0.75rem;
+}
+
+.socialGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+}
+
+.socialButton {
+  border: 1px solid var(--brand-border);
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.footerText {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--brand-gray);
+}
+
+.inlineError {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #d64545;
+}
